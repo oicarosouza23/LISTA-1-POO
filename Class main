@@ -1,0 +1,24 @@
+// Classe principal 
+
+package  br.com.icaro.loja
+public class Main {
+    public static void main(String[] args) {
+        Livro livro = new Livro("O Senhor dos Anéis", 49.99, "Fantasia épica", "J.R.R. Tolkien", 1000);
+        Eletronico eletronico = new Eletronico("Smartphone", 999.99, "Celular avançado", "Samsung", "110V");
+
+        System.out.println("Detalhes do livro:");
+        System.out.println("Nome: " + livro.getNome());
+        System.out.println("Preço: " + livro.getPreco());
+        System.out.println("Descrição: " + livro.getDescricao());
+        System.out.println("Autor: " + livro.getAutor());
+        System.out.println("Número de Páginas: " + livro.getNumPaginas());
+        livro.metodoEspecifico(); // Chamada do método específico de Livro
+        System.out.println("\nDetalhes do produto eletrônico:");
+        System.out.println("Nome: " + eletronico.getNome());
+        System.out.println("Preço: " + eletronico.getPreco());
+        System.out.println("Descrição: " + eletronico.getDescricao());
+        System.out.println("Marca: " + eletronico.getMarca());
+        System.out.println("Voltagem: " + eletronico.getVoltagem());
+        eletronico.metodoEspecifico(); // Chamada do método específico de Eletrônico
+    }
+}
