@@ -1,6 +1,6 @@
+package  br.com.icaro.loja;
 // Classe principal 
 
-package  br.com.icaro.loja
 public class Main {
     public static void main(String[] args) {
         Livro livro = new Livro("O Senhor dos Anéis", 49.99, "Fantasia épica", "J.R.R. Tolkien", 1000);
