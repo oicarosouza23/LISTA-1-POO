@@ -1,6 +1,6 @@
+package  br.com.icaro.loja;
 // Eletronico que herda de Produto
 
-package  br.com.icaro.loja
 class Eletronico extends Produto {
     private String marca;
     private String voltagem;
