@@ -1,6 +1,6 @@
+package  br.com.icaro.loja;
 // Produto
 
-package  br.com.icaro.loja
 class Produto {
     private String nome;
     private double preco;
